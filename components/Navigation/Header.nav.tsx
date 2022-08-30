@@ -2,6 +2,7 @@ import type { NextComponentType, NextPageContext } from "next";
 
 import Link from "next/link";
 import { VscGithubAlt } from "../Misc/Icons.collection";
+import DarkModeToggle from "../DarkMode/DarkModeToggle.component";
 
 import type { linkProps } from "../../@types/prop.types";
 
@@ -30,6 +31,8 @@ const Header: NextComponentType = () => {
         <TextLink text="Projects" url="#projects" />
         <TextLink text="Contact" url="#contact" />
       </p>
+
+      <DarkModeToggle />
 
       <Link href="https://github.com/griffin-a" passHref>
         <a
