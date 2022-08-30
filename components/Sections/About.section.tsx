@@ -14,12 +14,12 @@ const About: NextComponentType = () => {
           Fullstack developer, student, and DJ
         </p>
 
-        {/* <p className="mt-4 text-gray-400">
-          Building Web apps, proficient in Frontend. Writing articles <br /> on
-          my blog sometimes.
+        <p className="mt-4 text-gray-400">
+          Hello, my name is Griffin! I am a final year computer science student at the University of Auckland. <br /> 
+          I am an aspiring fullstack developer and a hobbyist DJ.
         </p>
 
-        <Link href="https://blog.anurag.tech" passHref>
+        {/* <Link href="https://blog.anurag.tech" passHref>
           <a
             className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"

@@ -8,7 +8,7 @@ const Projects: NextComponentType = () => {
   return (
     <div className="font-sen my-16 px-3" id="projects">
       <p className="text-3xl font-bold text-white">Featured Projects</p>
-      <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
+      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         {/* <Project
           link="https://graph-algo-visualizer-griffin-a.netlify.app/"
           title="Graph Algorithm Visualizer"

@@ -14,10 +14,10 @@ const ProjectCard = ({
   projectUrl,
 }: ProjectCardProps) => {
   return (
-    <div className="flex justify-center mx-auto">
+    <>
       <a
         href={projectUrl}
-        className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="flex flex-row items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
         <Image
           src={`/${imageName}`}
@@ -38,7 +38,7 @@ const ProjectCard = ({
           </p>
         </div>
       </a>
-    </div>
+    </>
   );
 };
 

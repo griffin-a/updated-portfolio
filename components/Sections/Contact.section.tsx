@@ -6,7 +6,8 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineFacebook,
-  AiOutlineLinkedin
+  AiOutlineLinkedin,
+  AiOutlineInstagram
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -23,6 +24,8 @@ const Contact: NextComponentType = () => {
           icon={<AiOutlineFacebook />}
           url="https://www.facebook.com/griffin.almquist.16"
         />
+
+        <Icon icon={<AiOutlineInstagram />} url="https://www.instagram.com/griff1in/" />
 
         <Icon icon={<AiOutlineLinkedin />} url="https://www.linkedin.com/in/griffin-almquist-55035620a/" />
 
