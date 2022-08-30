@@ -42,28 +42,28 @@ function MyApp({ Component, pageProps }: AppProps) {
             "Hey! I'm Griffin, A Fullstack Developer, Student and aspiring DJ!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "assets/profile.jpg",
               width: 800,
               height: 420,
               alt: "Griffin | Fullstack Developer",
             },
           ],
         }}
-        twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
-          cardType: "summary_large_image",
-        }}
+        // twitter={{
+        //   handle: "@kr_anurag_",
+        //   site: "@kr_anurag_",
+        //   cardType: "summary_large_image",
+        // }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Frontend Developer, Griffin, Almquist, griffin, griffinalmquist, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
           },
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        {/* <link rel="icon" type="image/jpg" href="/assets/profile.jpg" /> */}
       </Head>
       <Component {...pageProps} />
     </>
