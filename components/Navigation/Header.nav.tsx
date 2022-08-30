@@ -32,7 +32,7 @@ const Header: NextComponentType = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <DarkModeToggle />
+      {/* <DarkModeToggle /> */}
 
       <Link href="https://github.com/griffin-a" passHref>
         <a
