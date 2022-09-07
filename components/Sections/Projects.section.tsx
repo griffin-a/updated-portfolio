@@ -8,37 +8,7 @@ const Projects: NextComponentType = () => {
   return (
     <div className="font-sen my-16 px-3" id="projects">
       <p className="text-3xl font-bold text-white">Featured Projects</p>
-      <div className="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
-        {/* <Project
-          link="https://graph-algo-visualizer-griffin-a.netlify.app/"
-          title="Graph Algorithm Visualizer"
-          description="A pathfinding algorithm visualizer."
-        />
-
-        <Project
-          link="https://github.com/UoaWDCC/Investment-island"
-          title="Investment Island"
-          description="An ongoing group project where I am tech lead."
-        />
-
-        <Project
-          link=""
-          title="Todo List Web-App"
-          description="A full-stack todo list web-app that provides full CRUD functionality"
-        />
-
-        <Project
-          link="https://book-web-app-235.herokuapp.com/"
-          title="Book Library Browser"
-          description="A full-stack library application."
-        />
-
-        <Project
-          link="https://movie-tv-searcher.netlify.app"
-          title="Movie/TV Browser"
-          description="An application that calls an external API to display search results for the entered title search"
-        /> */}
-
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <ProjectCard
           imageName="assets/maze.png"
           title="Graph Algorithm Visualizer"
@@ -53,7 +23,7 @@ const Projects: NextComponentType = () => {
           imageName="assets/investment-island.png"
           title="Investment Island"
           description="An ongoing group project that I am working on at the moment with the 
-        WDCC club at the University of Auckland. My role is a front-end developer. Is yet to be completed."
+        WDCC club at the University of Auckland. My role is a tech lead and full-stack developer. Is yet to be completed."
           projectUrl="https://github.com/UoaWDCC/Investment-island"
         />
 
